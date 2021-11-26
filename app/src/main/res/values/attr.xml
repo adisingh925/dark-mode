@@ -4,5 +4,6 @@
         <attr name="background_color" format="color"/>
         <attr name="font_color" format="color"/>
         <attr name="button_background" format="color"/>
+        <attr name="card_background" format="color"/>
     </declare-styleable>
 </resources>

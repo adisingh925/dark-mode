@@ -17,5 +17,6 @@
         <item name="background_color">#FFFFFF</item>
         <item name="font_color">#000000</item>
         <item name="button_background">#FFFFFF</item>
+        <item name="card_background">#FFFFFF</item>
     </style>
 </resources>
