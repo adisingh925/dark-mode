@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_color"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buttonlayout"
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:drawableTop="@drawable/backspace"
+                android:drawableTint="#FFA500"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:paddingTop="25dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/seven"
+                android:textColor="?attr/font_color"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/four"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/font_color"
+                android:background="?android:attr/selectableItemBackground"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_height="80dp"
+                android:text="@string/one"
+                android:backgroundTint="?attr/button_background"
+                android:textColor="?attr/font_color"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/clear"
+                android:backgroundTint="?attr/button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:stateListAnimator="@null"
+                android:textColor="#FFA500"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/exponent"
+                android:background="?android:attr/selectableItemBackground"
+                android:textColor="#00BFFF"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="?attr/button_background"
+                android:fontFamily="sans-serif-light"
+                android:stateListAnimator="@null"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/eight"
+                android:textColor="?attr/font_color"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/five"
+                android:backgroundTint="?attr/button_background"
+                android:textColor="?attr/font_color"
+                android:stateListAnimator="@null"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/two"
+                android:backgroundTint="?attr/button_background"
+                android:textColor="?attr/font_color"
+                android:stateListAnimator="@null"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/zero"
+                android:backgroundTint="?attr/button_background"
+                android:textColor="?attr/font_color"
+                android:stateListAnimator="@null"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/percent"
+                android:background="?android:attr/selectableItemBackground"
+                android:textColor="#00BFFF"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:stateListAnimator="@null"
+                android:text="@string/nine"
+                android:backgroundTint="?attr/button_background"
+                android:textColor="?attr/font_color"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:stateListAnimator="@null"
+                android:text="@string/six"
+                android:backgroundTint="?attr/button_background"
+                android:textColor="?attr/font_color"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-light"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/three"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/font_color"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/dot"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:textColor="?attr/font_color"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/divide"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:textColor="#00BFFF"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/multiply"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:textColor="#00BFFF"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/subtract"
+                android:stateListAnimator="@null"
+                android:backgroundTint="?attr/button_background"
+                android:textColor="#00BFFF"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/add"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:textColor="#00BFFF"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/equal"
+                android:backgroundTint="?attr/button_background"
+                android:stateListAnimator="@null"
+                android:textColor="#00BFFF"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
