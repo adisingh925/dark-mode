@@ -1,4 +1,4 @@
-package com.app.calculator
+package com.adreal.calculator
 
 import org.junit.Test
 

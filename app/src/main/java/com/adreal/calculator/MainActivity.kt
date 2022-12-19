@@ -1,8 +1,8 @@
-package com.app.calculator
+package com.adreal.calculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.app.calculator.databinding.ActivityMainBinding
+import com.adreal.calculator.databinding.ActivityMainBinding
 import java.lang.StringBuilder
 import javax.script.ScriptEngine
 import javax.script.ScriptEngineManager
